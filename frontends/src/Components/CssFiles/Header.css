@@ -1,0 +1,13 @@
+.header{
+    position: relative;
+       background-image: url('../../assets/snapchatt.png');
+       background-size: cover;
+       background-position: center;
+       transform: rotate(-20deg);
+       transform-origin: 60% 50%;
+       background-repeat: no-repeat;
+   }
+   .fake {
+   font-family: cursive;
+     box-shadow: 1px 1px;
+   }
