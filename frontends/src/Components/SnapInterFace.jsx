@@ -206,13 +206,13 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
             )?.map((group, i) => (
               <div
                 key={i + 'dewi'}
-                draggable
+                draggable={!['«r3»Scoot', '«r3»Jack'].includes(group.id)}
                 onDragStart={(e) => {
                   if (['«r3»Scoot', '«r3»Jack'].includes(group.id)) {
                     e.preventDefault(); // cancel drag start
                     return;
                   }
-                  dr
+                  
              
                   dragItem.current = i;
                   e.stopPropagation();
