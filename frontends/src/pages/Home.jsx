@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react";
 import { Download } from "lucide-react";
 import html2canvas from "html2canvas";
