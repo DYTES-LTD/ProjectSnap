@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import React from 'react'
 import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom'
-import Userhome from './Components/Userhome.jsx'
+
 import store from './store/store.js'
 import { Provider } from 'react-redux'
+import Homepage from './pages/Homepage.jsx'
 
 const router=createBrowserRouter([{
   path:'/',
@@ -14,7 +15,7 @@ const router=createBrowserRouter([{
   children:[
    {
     index:true,
-    element:<Userhome/>
+    element:<Homepage/>
    }
   ]
 }])
