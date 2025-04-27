@@ -2,6 +2,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Components/Header";
 import './App.css'
+import Footer from "./Components/Footer";
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
       </main>
 
       {/* You can add a footer here if needed */}
+      <Footer/>
     </div>
   );
   // return (

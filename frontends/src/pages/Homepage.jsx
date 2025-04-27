@@ -10,7 +10,7 @@
 
   
     return (
-      <div className='home min-h-screen flex items-center justify-center '>
+      <div className='home min-h-screen flex items-center justify-center mb-4'>
         <Userhome /> 
       </div>
     )
