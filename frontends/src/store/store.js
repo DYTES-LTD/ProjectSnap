@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import   Userinformation from './userdetails.js'
-import chats from './chats.js'
+import   Userinformation from '../store/Slice/userdetails.js'
+import chats from '../store/Slice/chats.js'
 
 const store = configureStore({
   reducer: {

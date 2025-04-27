@@ -1,0 +1,21 @@
+.userhome {
+
+    background-color: #2a3135;
+    background-image: url('../assets/chatbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ssclass {
+    background-image: url('../assets/pattern.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.toggle-airplane{
+    background-color: #2a3135;
+    border: 2px solid black;
+    border-radius: 34px;
+}
