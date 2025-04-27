@@ -11,7 +11,7 @@
   
     return (
       <div className='home min-h-screen flex items-center justify-center '>
-        <Userhome />
+        <Userhome /> 
       </div>
     )
   }
