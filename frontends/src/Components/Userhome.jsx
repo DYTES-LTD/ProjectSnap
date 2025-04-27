@@ -236,7 +236,7 @@ function Userhome() {
                     <div style={{ backgroundColor: selectedColor }} className="w-[86%] h-[1.7vh] mt-1 border-1" onClick={() => setIsColorPickerOpen(!isColorPickerOpen)}></div>
 
                     {isColorPickerOpen && (
-                      <div className='absolute top-70'>
+                      <div className='absolute top-70 flex flex-col'>
                         <SketchPicker color={selectedColor} onChange={(updatedColor) => setSelectedColor(updatedColor.hex)} />
                         <button onClick={() => setIsColorPickerOpen(false)} className='z-40 sticky bg-white hover:bg-black text-black hover:text-white border-1 p-2'>OK</button>
                       </div>

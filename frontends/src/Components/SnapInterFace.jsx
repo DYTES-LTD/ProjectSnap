@@ -177,7 +177,7 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
               <div className="flex items-center justify-between p-1">
                 <div className="flex flex-row items-center justify-between p-1 w-1/3">
                   <div className="leftarrow min-w-[20px] w-[1vw] h-[1.8vh]"></div>
-                  <div className={ `userimage ${MetaData.story?'border-blue-400 border-2 rounded-[50%]':''} lg:w-[5vw] lg:h-[5vh] w-[46px] h-[43px] min-w-[40px]  lg:min-w-[35px] sm:w-[43px] sm:h-[40px] ml-2`}></div>
+                  <div className={ `userimage ${MetaData.story ? 'border-blue-400 border-2 rounded-[50%]':''} lg:w-[5vw] lg:h-[5vh] w-[43px] h-[43px] min-w-[40px]  lg:min-w-[35px] sm:w-[40px] sm:h-[40px] ml-2 aspect-square`}></div>
                   <div className="name ml-2 font-bold overflow-hidden min-w-30">{MetaData.name}</div>
                 </div>
                 <div className="dailer lg:w-[4vw] lg:h-[2vh] w-[60px] h-[20px] md:w-[7vw] md:h-[7vh] mr-3"></div>
