@@ -1,10 +1,5 @@
 
-.ssclass{
-  background-image: url('../../assets/maill.png');
-  background-color: rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .leftarrow{
     background-image: url('../../assets/leftarrow.png');
     background-position: center;

@@ -7,15 +7,66 @@
     background-repeat: no-repeat;
 }
 
-.ssclass {
-    background-image: url('../assets/pattern.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .toggle-airplane{
     background-color: #2a3135;
     border: 2px solid black;
     border-radius: 34px;
 }
+
+
+.home-bg {
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+  }
+
+
+  /* From Uiverse.io by JkHuger */ 
+.rainbow-hover {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff7576;
+    background-color: #333950;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: relative;
+    line-height: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px #2B3044,
+      0px 4px 16px #2B3044;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px)
+      rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+  }
+  
+  .sp {
+    background: linear-gradient(
+        90deg,
+        #866ee7,
+        #ea60da,
+        #ed8f57,
+        #fbd41d,
+        #2cca91
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    display: block;
+  }
+  
+  .rainbow-hover:active {
+    transition: 0.3s;
+    transform: scale(0.93);
+  }
+
+
+ 

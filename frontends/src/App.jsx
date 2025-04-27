@@ -1,12 +1,13 @@
 
 import { Outlet } from "react-router-dom";
 import Header from "./Components/Header";
+import './App.css'
 
 export default function App() {
 
 
   return (
-    <div className="w-full min-h-screen flex flex-col">
+    <div className="w-full min-h-screen flex flex-col app-pattern">
       <div>
         <Header/>
       </div>

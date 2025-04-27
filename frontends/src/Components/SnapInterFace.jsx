@@ -1,5 +1,7 @@
 import React, { useEffect, useId, useRef, useState } from 'react';
-import './CssFiles/Ui.css';
+
+import './SnapInterFace.css'
+
 import { useSelector } from 'react-redux';
 import html2canvas from 'html2canvas-pro';
 
@@ -126,10 +128,10 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
   }, [selector]);
 
   return (
-   <div className='ssclass w-full h-full mt-1 p-2'>
+   <div className='ssclass w-full h-full mt-5 p-2 rounded-3xl shadow-2xl shadow-blue-300'>
      <div className=" w-full flex justify-center items-center flex-col h-fit">
     <div className=' flex flex-row justify-between w-[90%]   mb-2 mt-3 '>
-    <div className='  border-1 border-black/20 rounded bg-black/20 p-1 font-bold w-30 mb-1' >Live Preview</div>
+    <div className='  border-1 border-black/20 rounded bg-black/20 p-1 text-center font-bold w-30 mb-1 cursor-default' >Live Preview</div>
     </div>
     <div
         className="bg-white w-full flex flex-col items-center sm:w-[100vw]"
@@ -187,7 +189,7 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
 
           {/* Chat Messages */}
           <div
-            className="chats w-full flex-grow lg:min-h-[30vh] lg:max-h-[30vh] min-h-[30vh] space-y-4 px-2 py-2 overflow-y-auto"
+            className="chats w-full flex-grow lg:min-h-[30vh] lg:max-h-[30vh] min-h-[30vh] space-y-4 px-2 py-2"
             style={{
               maxHeight: `calc(${MetaData.height}vh - ${isheader ? 12 : 0}vh - ${isfooter ? 1 : 0}vh)`,
               
@@ -270,12 +272,12 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
         </div>
       </div>
     
-      <div className=' flex flex-row justify w-[90%]-center   mb-2 mt-2 '>
+      <div className=' flex flex-row justify w-[90%]-center   mb-2 mt-10 lg:gap-6 '>
 
-      <button onClick={handleScreenshot} className="  p-2 mr-4 bg-blue-500 text-white rounded">
+      <button onClick={handleScreenshot} className="btnss  p-2 mr-4  text-white rounded">
         Take Screenshot
       </button>
-      <a to="https://www.buymeacoffee.com/saurabh007007" className='lg:w-[12vw] w-40 h-10 '><img
+      <a to="" className='lg:w-[12vw] w-40 h-10 '><img
 src="https://img.buymeacoffee.com/button-api/?text=Buy me a
 coffee&emoji=&slug=saurabh007007&button_colour=FFDD00&font_colour=0000
 00&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
