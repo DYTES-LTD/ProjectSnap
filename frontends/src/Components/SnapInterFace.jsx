@@ -277,7 +277,7 @@ function SnapInterFace({MetaData, isheader, isfooter,iswifi}) {
       <button onClick={handleScreenshot} className="btnss  p-2 mr-4  text-white rounded">
         Take Screenshot
       </button>
-      <a to="" className='lg:w-[12vw] w-40 h-10 '><img
+      <a to="" className='lg:w-[12vw] w-40 h-10 cursor-pointer'><img
 src="https://img.buymeacoffee.com/button-api/?text=Buy me a
 coffee&emoji=&slug=saurabh007007&button_colour=FFDD00&font_colour=0000
 00&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
